@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+from picaxe import picaxe
+flickr = picaxe(
+    log=log,
+    settings=settings
+)
+albumList = flickr.list_album_titles()
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xpicaxe-list-all-albums-in-flickr-account</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>list-all-albums-in-flickr-account</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags></tags>
+</snippet>

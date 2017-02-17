@@ -1,0 +1,12 @@
+{
+"scope": "source.python",
+"completions":
+[
+   
+	{ "trigger": "picaxe> get photo metadata\tcomp", "contents": "xpicaxe-get-photo-metadata" },
+	{ "trigger": "picaxe> get markdown image link for flickr url\tcomp", "contents": "xpicaxe-get-markdown-image-link-for-flickr-url" },
+	{ "trigger": "picaxe> list all albums in flickr account\tcomp", "contents": "xpicaxe-list-all-albums-in-flickr-account" },
+	{ "trigger": "picaxe> authenticate picaxe\tcomp", "contents": "xpicaxe-authenticate-picaxe" },
+	{ "trigger": "picaxe> upload an image to flickr\tcomp", "contents": "xpicaxe-upload-an-image-to-flickr" } 
+]
+}

@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[
+from picaxe import picaxe
+flickr = picaxe(
+    log=log,
+    settings=settings
+)
+photoid = flickr.upload(
+    imagePath="${1:/path/to/image.png}",
+    title="${2:my lovely image}",
+    private=False,
+    tags="${3:lovely, icon}",
+    description="${4:this is a test image}",
+    imageType="image", # image|screengrab|photo
+    album="${5:my icons}",
+    openInBrowser=False
+)
+print photoid
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xpicaxe-upload-an-image-to-flickr</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>upload-an-image-to-flickr</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags></tags>
+</snippet>
