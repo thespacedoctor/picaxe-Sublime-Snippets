@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[
 from picaxe import picaxe
-Flickr = picaxe(
+flickr = picaxe(
     log=log,
     settings=settings
 )
-mdLink = Flickr.md(
+mdLink = flickr.md(
     url="${1:https://www.flickr.com/photos/92344916@N06/30455211086}"
     width="original" # [75, 100, 150, 240, 320, 500, 640, 800, 1024, 1600, 2048]
 )
